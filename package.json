@@ -1,0 +1,21 @@
+{
+  "name": "single-page-developer-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "npx json-server --watch db.json -p 5000"
+  },
+  "dependencies": {
+    "eslint": "8.43.0",
+    "eslint-config-next": "13.4.7",
+    "firebase": "^10.0.0",
+    "json-server": "^0.17.3",
+    "next": "13.4.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  }
+}

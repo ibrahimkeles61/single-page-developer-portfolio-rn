@@ -1,0 +1,52 @@
+.stylishButton__container {
+  /* width: 150px; */
+
+  font-size: 16px;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  background-color: transparent;
+  color: var(--primary);
+  border: none;
+  border-bottom: 2px solid var(--accent);
+}
+
+.stylishButton__container:hover {
+  cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 567px) {
+  .stylishButton__container {
+    font-size: 20px;
+    line-height: 28px;
+    border-bottom: 3px solid var(--accent);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .stylishButton__container {
+    font-size: 28px;
+    line-height: 32px;
+    border-bottom: 4px solid var(--accent);
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .stylishButton__container {
+    font-size: 32px;
+    line-height: 32px;
+    border-bottom: 3px solid var(--accent);
+  }
+}
+
+@media screen and (min-width: 1919px) {
+  .stylishButton__container {
+    font-size: 40px;
+    line-height: 35px;
+    border-bottom: 3px solid var(--accent);
+  }
+}

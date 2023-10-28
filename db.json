@@ -1,0 +1,72 @@
+{
+  "skills": [
+    {
+      "skill": "html",
+      "expTime": "2 Years",
+      "line": 1
+    },
+    {
+      "skill": "css",
+      "expTime": "2 Years",
+      "line": 2
+    },
+    {
+      "skill": "javascript",
+      "expTime": "1 Years",
+      "line": 3
+    },
+    {
+      "skill": "react",
+      "expTime": "1 Years",
+      "line": 4
+    },
+    {
+      "skill": "next",
+      "expTime": "1 Month",
+      "line": 5
+    },
+    {
+      "skill": "styled-components",
+      "expTime": "6 Months",
+      "line": 6
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "photoUrl": "/assets/images/project-photos/project1.webp",
+      "title": "design portfolio",
+      "skills": ["html", "css"]
+    },
+    {
+      "id": 2,
+      "photoUrl": "/assets/images/project-photos/project2.webp",
+      "title": "e-learning landing page",
+      "skills": ["html", "css"]
+    },
+    {
+      "id": 3,
+      "photoUrl": "/assets/images/project-photos/project3.webp",
+      "title": "todo web app",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "id": 4,
+      "photoUrl": "/assets/images/project-photos/project4.webp",
+      "title": "entertaintment web app",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "id": 5,
+      "photoUrl": "/assets/images/project-photos/project5.webp",
+      "title": "memory game",
+      "skills": ["html", "css", "javascript"]
+    },
+    {
+      "id": 6,
+      "photoUrl": "/assets/images/project-photos/project6.webp",
+      "title": "art gallery showcase",
+      "skills": ["html", "css", "javascript"]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.stylishProjectButton__container {
+  /* width: 150px; */
+
+  font-size: 16px;
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2.286px;
+  background-color: transparent;
+  color: var(--primary);
+  border: none;
+  border-bottom: 2px solid var(--accent);
+}
+.stylishProjectButton__container:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 567px) and (max-width: 766.98px) {
+  .stylishProjectButton__container {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1279px) {
+  .stylishProjectButton__container {
+    font-size: 24px;
+    line-height: 32px;
+    border-bottom: 3px solid var(--accent);
+  }
+}

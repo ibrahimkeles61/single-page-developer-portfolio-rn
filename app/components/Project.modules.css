@@ -1,0 +1,124 @@
+.project__container {
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+}
+
+.project__photo {
+	width: 345px;
+	height: auto;
+	margin-inline: auto;
+}
+
+.project__details {
+	margin-top: 20px;
+	width: 345px;
+	margin-inline: auto;
+	border: 1px solid white;
+}
+
+.project__title {
+	font-size: 24px;
+	font-family: Space Grotesk;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+.project__skills {
+	font-size: 18px;
+	font-family: Space Grotesk;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+	display: flex;
+	gap: 20px;
+	margin-top: 5px;
+}
+
+.project__buttons {
+	display: flex;
+	gap: 30px;
+	margin-top: 20px;
+}
+
+.project__buttons a {
+	text-decoration: none;
+}
+
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 567px) and (max-width: 766.98px) {
+	.project__container {
+		height: 500px;
+	}
+	.project__photo {
+		width: 400px;
+	}
+	.project__details {
+		width: 400px;
+	}
+	.project__title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.project__skills {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+@media screen and (min-width: 1023px) {
+	.project__container {
+		height: 500px;
+	}
+	.project__photo {
+		width: 400px;
+	}
+	.project__details {
+		width: 400px;
+	}
+	.project__title {
+		font-size: 32px;
+		line-height: 40px;
+	}
+	.project__skills {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+@media screen and (min-width: 1279px) and (max-width: 1918.98px) {
+	.project__container {
+		width: 450px;
+		height: auto;
+	}
+	.project__photo {
+		width: 500px;
+	}
+	.project__details {
+		width: 500px;
+	}
+	.project__title {
+		font-size: 36px;
+		line-height: 44px;
+	}
+	.project__skills {
+		font-size: 28px;
+		line-height: 32px;
+		margin-top: 10px;
+	}
+}
+@media screen and (min-width: 1900px) {
+	.project__container {
+		flex-direction: row;
+		width: auto;
+		height: auto;
+	}
+	.project__photo {
+		/* width: 300px; */
+		width: auto;
+		height: 700px;
+	}
+}
