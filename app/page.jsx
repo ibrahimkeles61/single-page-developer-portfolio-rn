@@ -30,50 +30,50 @@ export default async function Home() {
 
 	// adding
 
-	setDoc(
-		projectsRef,
-		{
-			projectsList: [
-				{
-					id: 1,
-					title: "Restaurant App Sample",
-					projectName: "restaurant",
-					skills: ["react native", "yelp api"],
-					line: 1,
-					photoAmount: 3,
-					githubUrl: "https://github.com/ibrahimkeles61/restaurant",
-				},
-				{
-					id: 2,
-					title: "Auth Token Usage",
-					projectName: "auth_token",
-					skills: ["react native", "async storage"],
-					line: 2,
-					photoAmount: 3,
-					githubUrl: "https://github.com/ibrahimkeles61/auth_token",
-				},
-				{
-					id: 3,
-					title: "Blog App Sample",
-					projectName: "blog",
-					skills: ["react native", "something something"],
-					line: 3,
-					photoAmount: 5,
-					githubUrl: "https://github.com/ibrahimkeles61/blog",
-				},
-				{
-					id: 4,
-					title: "Firebase Authentication Usage",
-					projectName: "firebase_auth",
-					skills: ["react native", "firebase auth"],
-					line: 4,
-					photoAmount: 3,
-					githubUrl: "https://github.com/ibrahimkeles61/firebase_auth",
-				},
-			],
-		},
-		{ merge: true }
-	);
+	// setDoc(
+	// 	projectsRef,
+	// 	{
+	// 		projectsList: [
+	// 			{
+	// 				id: 1,
+	// 				title: "Restaurant App Sample",
+	// 				projectName: "restaurant",
+	// 				skills: ["react native", "yelp api"],
+	// 				line: 1,
+	// 				photoAmount: 3,
+	// 				githubUrl: "https://github.com/ibrahimkeles61/restaurant",
+	// 			},
+	// 			{
+	// 				id: 2,
+	// 				title: "Auth Token Usage",
+	// 				projectName: "auth_token",
+	// 				skills: ["react native", "async storage"],
+	// 				line: 2,
+	// 				photoAmount: 3,
+	// 				githubUrl: "https://github.com/ibrahimkeles61/auth_token",
+	// 			},
+	// 			{
+	// 				id: 3,
+	// 				title: "Blog App Sample",
+	// 				projectName: "blog",
+	// 				skills: ["react native"],
+	// 				line: 3,
+	// 				photoAmount: 5,
+	// 				githubUrl: "https://github.com/ibrahimkeles61/blog",
+	// 			},
+	// 			{
+	// 				id: 4,
+	// 				title: "Firebase Authentication Usage",
+	// 				projectName: "firebase_auth",
+	// 				skills: ["react native", "firebase auth"],
+	// 				line: 4,
+	// 				photoAmount: 3,
+	// 				githubUrl: "https://github.com/ibrahimkeles61/firebase_auth",
+	// 			},
+	// 		],
+	// 	},
+	// 	{ merge: true }
+	// );
 
 	return (
 		<div style={{ width: "100vw", overflow: "hidden" }}>
@@ -86,3 +86,4 @@ export default async function Home() {
 }
 
 export const revalidate = 86400;
+// export const revalidate = 3;

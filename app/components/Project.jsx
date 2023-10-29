@@ -6,7 +6,7 @@ import ProjectImage from "./ProjectImage";
 
 export default function Project({
 	title,
-	// skills,
+	skills,
 	projectImg,
 	// projectUrl,
 	// gitHubUrl,
@@ -31,16 +31,21 @@ export default function Project({
 				photoNumber={shownImageIndex}
 			/>
 
-			<button onClick={changeShownImageIndex}>sonraki</button>
-			<div className="project__details">
-				{/* <p className="project__title">{title.toUpperCase()}</p> */}
+			<button
+				className="next__button"
+				onClick={changeShownImageIndex}
+			>
+				Next
+			</button>
 
-				<p>projectdetails</p>
-				{/* <div className="project__skills">
+			<div className="project__details">
+				<p className="project__title">{title.toUpperCase()}</p>
+
+				<div className="project__skills">
 					{skills.map((e, i) => (
 						<p key={i}>{e.toUpperCase()}</p>
 					))}
-				</div> */}
+				</div>
 
 				{/* <div className="project__buttons">
 					<a href={projectUrl}>
