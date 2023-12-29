@@ -29,15 +29,17 @@ export default async function ProjectsSection({ projectsList }) {
 			</div>
 
 			<div className="projects">
-				{projectsList.map((project) => (
-					<Project
-						key={project.id}
-						photoAmount={project.photoAmount}
-						folderName={project.projectName}
-						title={project.title}
-						skills={project.skills}
-					/>
-				))}
+				{projectsList
+					.sort((x, y) => x.line - y.line)
+					.map((project) => (
+						<Project
+							key={project.id}
+							photoAmount={project.photoAmount}
+							folderName={project.projectName}
+							title={project.title}
+							skills={project.skills}
+						/>
+					))}
 			</div>
 		</div>
 
